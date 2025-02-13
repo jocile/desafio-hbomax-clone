@@ -1,3 +1,5 @@
+@import url('./reset.css');
+
 :root {
   --primary-color: #020228;
   --secondary-color: #ff00e5;
