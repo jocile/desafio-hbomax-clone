@@ -10,6 +10,26 @@ nav {
   z-index: 1;
 }
 
-.logo {
+#logo {
   width: 160px;
+  height: 26px;
+}
+
+.menu__item {
+  margin-right: 1.5rem; /* 24px = 1.5 * 16 */
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-color);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.menu__btn {
+  background-color: var(--tertiary-color);
+  padding: 8px 26px;
+  border-radius: 500px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
