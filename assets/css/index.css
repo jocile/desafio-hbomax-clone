@@ -8,12 +8,66 @@ header {
   position: relative;
   margin-top: 50px;
   padding: 100px 0 300px;
-  background: linear-gradient(-45deg, #56125b, #0f0f10, #271e6e);
-  background-size: 400% 400%;
   animation: gradient 10s ease infinite alternate;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__channels {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.header__channel {
+  object-fit: contain;
+}
+
+.header__title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.header__title--light {
+  display: block;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.divider {
+  width: 70%;
+  max-width: 700px;
+  height: 5px;
+  background: var(--divider-bg-color);
+}
+
+.offer {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.offer__price {
+  font-family: "Raleway", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.button--gradient {
+  background: var(--btn-bg-color-gradient);
+  outline: 3px solid transparent;
+  transition: background 1s, outline 1s, transform 1s;
+  background-size: 250%;
+}
+
+.button--animation {
+  animation: wiggle 2.2s linear infinite;
 }
 
 /* Posicionando o footer no final da página */
+
 footer {
   max-width: 1200px;
   margin: auto;
@@ -21,4 +75,32 @@ footer {
   text-align: center;
   position: fixed;
   bottom: 0;
+}
+
+/* Animations */
+
+@keyframes wiggle {
+  0%,
+  10% {
+    transform: rotate(0);
+  }
+  15% {
+    transform: rotate(-15deg);
+  }
+  20% {
+    transform: rotate(10deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  30% {
+    transform: rotate(10deg);
+  }
+  35% {
+    transform: rotate(-10deg);
+  }
+  40%,
+  100% {
+    transform: rotate(0);
+  }
 }
