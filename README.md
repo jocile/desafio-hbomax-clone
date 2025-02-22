@@ -1,28 +1,27 @@
-<img src="assets/images/readme-images/cover.png">
+# HBO Max Clone
 
-<h1 align="center">Site HBO Max</h1>
-<h4 align="center">Clone com modificações</h4>
+[![Cover image](assets/images/readme-images/cover.png)](https://jocile.github.io/desafio-hbomax-clone/)
 
-<p align="center">
-  O projeto é um clone do site <a href="https://www.hbomax.com/br/pt">HBO Max</a>, com o intuito de reproduzir a interface, com algumas modificações, aplicando os temas abordados ao longo das aulas de CSS da plataforma da <a href="https://dio.me">Digital Innovation One</a>.
-</p>
-<p align="center">
-  O clone do site HBO Max serve como desafio para os alunos da plataforma testarem seus conhecimentos e colocarem em prática os recursos de HTML e CSS abordados nos cursos.
-</p>
+## Clone com modificações
 
-<a href="https://micheleambrosio.github.io/hbomax/">
-  <img src="assets/images/readme-images/cover-2.png">
-</a>
+O projeto é um clone do site [HBO Max](https://www.hbomax.com/br/pt), com o intuito de reproduzir a interface, com algumas modificações, aplicando os temas abordados ao longo das aulas de CSS da plataforma da [Digital Innovation One](https://dio.me).
+
+O clone do site HBO Max serve como desafio para os alunos da plataforma testarem seus conhecimentos e colocarem em prática os recursos de HTML e CSS abordados nos cursos.
+
+[![Cover image](assets/images/readme-images/cover-2.png)](https://micheleambrosio.github.io/hbomax/)
 
 ## 📎 Sumário
 
-- [✨ Features](#features)
-- [📦 Temas abordados](#topics)
-- [🏆 Desafio](#challenges)
-- [🌈 Demonstração](#demo)
-- [💻 Autora](#author)
+- [HBO Max Clone](#hbo-max-clone)
+  - [Clone com modificações](#clone-com-modificações)
+  - [📎 Sumário](#-sumário)
+  - [✨ Features {#features}](#-features-features)
+  - [📦 Temas abordados {#topics}](#-temas-abordados-topics)
+  - [🏆 Desafio {#challenges}](#-desafio-challenges)
+  - [🌈 Demonstração {#demo}](#-demonstração-demo)
+  - [💻 Autora {#author}](#-autora-author)
 
-<h2 id="features">✨ Features</h2>
+## ✨ Features {#features}
 
 - Menu de navegação
 - Cabeçalho com animação gradiente
@@ -34,9 +33,9 @@
 
 *As features são visuais, não possuindo integração com nenhuma API. O intuito do projeto é reproduzir a interface do site original, com algumas modificações.*
 
-<h2 id="topics">📦 Temas abordados</h2>
+## 📦 Temas abordados {#topics}
 
-O projeto possui como intuito aplicar os conceitos abordados na Trilha de CSS da <a href="https://dio.me">DIO</a>, ministrada pela instrutora <a href="https://github.com/micheleambrosio">Michele Ambrosio</a>.
+O projeto possui como intuito aplicar os conceitos abordados na Trilha de CSS da [DIO](https://dio.me), ministrada pela instrutora [Michele Ambrosio](https://github.com/micheleambrosio).
 
 Recursos CSS presentes no projeto:
 
@@ -50,7 +49,7 @@ Recursos CSS presentes no projeto:
 - Transições e animações
 - Tratamento de campos inválidos no formulário
 
-<h2 id="challenges">🏆 Desafio</h2>
+## 🏆 Desafio {#challenges}
 
 Como parte do desafio final da Trilha de CSS, o desenvolvedor deve reproduzir [esse projeto](https://micheleambrosio.github.io/hbomax/), sem realizar uma consulta do código final do site, presente na branch `master` deste repositório.
 
@@ -60,7 +59,6 @@ Dentro da branch `template-desafio`, você encontrará na pasta `assets/images` 
 
 Caso deseje, adicione as variáveis CSS abaixo, que contém todas as cores e gradientes utilizados no projeto:
 
-```css
   :root {
     --primary-color: #020228;
     --secondary-color: #ff00e5;
@@ -90,14 +88,12 @@ Caso deseje, adicione as variáveis CSS abaixo, que contém todas as cores e gra
 
     scroll-behavior: smooth;
   }
-```
 
 *A propriedade `scroll-behavior: smooth` irá fazer com que os links que levam para uma outra sessão do site, da mesma página, faça uma transição suave ao realizar a rolagem.*
 
 Para implementar a barra de rolagem personalizada, como no exemplo, adicione na sua folha de estilos o seguinte trecho CSS:
 
-```css
-  /* Custom Scroll */
+  /*Custom Scroll*/
 
   ::-webkit-scrollbar {
     width: 8px;
@@ -111,36 +107,30 @@ Para implementar a barra de rolagem personalizada, como no exemplo, adicione na 
   ::-webkit-scrollbar-thumb:hover {
     background: var(--secondary-color);
   }
-```
 
-O resultado final do projeto deve contemplar todas as [features](#features) presentes no <a href="https://micheleambrosio.github.io/hbomax/">resultado final</a>.
+O resultado final do projeto deve contemplar todas as [features](#features) presentes no [resultado final](https://micheleambrosio.github.io/hbomax/).
 
 As fontes utilizadas no projeto foram:
 
 - [Raleway](https://fonts.google.com/specimen/Raleway)
 - [Quicksand](https://fonts.google.com/specimen/Quicksand?query=quicksand)
   
-```css
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap");
-```
+@import url("<https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap>");
+@import url("<https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap>");
 
 *Para melhor orientação, assista ao vídeo de instruções do desafio, que está disponibilizado no Módulo 3 da Trilha de CSS.*
 
-
-<h2 id="demo">🌈 Demonstração</h2>
+## 🌈 Demonstração {#demo}
 
 Você pode acessar ao resultado final do projeto [clicando aqui](https://micheleambrosio.github.io/hbomax/).
 
+## 💻 Autora {#author}
 
-<h2 id="author">💻 Autora</h2>
-<p>
-    <img align=left margin=10 width=80 src="https://avatars.githubusercontent.com/u/55519539?v=4"/>
-    <p>&nbsp&nbsp&nbspMichele Queiroz Ambrosio<br>
-    &nbsp&nbsp&nbsp<a href="http://instagram.com/programi_">Instagram</a>&nbsp;|&nbsp;<a href="https://github.com/micheleambrosio">GitHub</a>&nbsp;|&nbsp;<a href="https://www.linkedin.com/in/michele-ambrosio-a4899661/">LinkedIn</a>&nbsp;|&nbsp;<a href="https://www.twitch.tv/michele_ambrosio">Twitch</a></p>
-</p>
-<br/><br/>
-<p>
+![Michele Queiroz Ambrosio](https://avatars.githubusercontent.com/u/55519539?v=4){: align="left" width="80" style="margin-right: 10px"}
+
+Michele Queiroz Ambrosio  
+[Instagram](http://instagram.com/programi_) | [GitHub](https://github.com/micheleambrosio) | [LinkedIn](https://www.linkedin.com/in/michele-ambrosio-a4899661/) | [Twitch](https://www.twitch.tv/michele_ambrosio)
 
 ---
+
 ⌨️ com ❤️ por [Michele Ambrosio](https://github.com/micheleambrosio) 😊
