@@ -4,8 +4,8 @@
 - [x] Cabeçalho com animação gradiente
 - [x] Cards com os planos de assinatura animados
 - [x] Lista de filmes e séries disponíveis na plataforma
-- [ ] Rodapé com links importantes
-- [ ] UI Responsiva -->
+- [x] Rodapé com links importantes
+- [x] UI Responsiva -->
 
 <html lang="pt-BR">
 
@@ -16,8 +16,9 @@
   <link rel="stylesheet" href="assets/css/nav-menu.css">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="assets/css/subscription.css">
-  <link rel="stylesheet" href="assets/css/responsivo.css">
   <link rel="stylesheet" href="assets/css/contents.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/responsivo.css">
   <title>HBO Max</title>
 </head>
 
@@ -139,54 +140,60 @@
       <h2 class="title">Descubra novos universos</h2>
       <div class="contents__container">
         <div class="contents__card">
-          <img
-            class="contents__image"
-            src="assets/images/hbo-default_0.webp"
-            alt="HBO"
-          />
+          <img class="contents__image" src="assets/images/hbo-default_0.webp" alt="HBO" />
         </div>
         <div class="contents__card">
-          <img
-            class="contents__image"
-            src="assets/images/MAX-Default.webp"
-            alt="Max Originals"
-          />
+          <img class="contents__image" src="assets/images/MAX-Default.webp" alt="Max Originals" />
         </div>
         <div class="contents__card">
-          <img
-            class="contents__image"
-            src="assets/images/DC_Default.webp"
-            alt="DC"
-          />
+          <img class="contents__image" src="assets/images/DC_Default.webp" alt="DC" />
         </div>
         <div class="contents__card">
-          <img
-            class="contents__image"
-            src="assets/images/WB-Default.webp"
-            alt="Warner Bross"
-          />
+          <img class="contents__image" src="assets/images/WB-Default.webp" alt="Warner Bross" />
         </div>
         <div class="contents__card">
-          <img
-            class="contents__image"
-            src="assets/images/CN-Default.webp"
-            alt="Cartoon Network"
-          />
+          <img class="contents__image" src="assets/images/CN-Default.webp" alt="Cartoon Network" />
         </div>
         <div class="contents__card">
-          <img
-            class="contents__image"
-            src="assets/images/UCL-Default.webp"
-            alt="UEFA Champions League"
-          />
+          <img class="contents__image" src="assets/images/UCL-Default.webp" alt="UEFA Champions League" />
         </div>
       </div>
     </section>
 
   </main>
 
-  <footer>
-    <p>© 2025 WarnerMedia Direct Latin America, LLC. Todos os direitos reservados. HBO Max é usado sob licença.</p>
+  <footer class="container">
+    <div>
+      <a class="footer__link" href="https://www.hbomax.com/br/pt/sitemap">
+        Agora na HBO Max
+      </a>
+      <a class="footer__link" href="https://www.hbomax.com/br/pt/coming-soon">
+        Em breve
+      </a>
+      <a class="footer__link" href="https://www.hbomax.com/br/pt/feature">
+        Filme em destaque
+      </a>
+      <a class="footer__link" href="https://www.hbomax.com/br/pt/series">Séries</a>
+      <a class="footer__link" href="https://help.hbomax.com/br">Ajuda</a>
+    </div>
+    <p class="text--small footer__legal">
+      © 2022 WarnerMedia Direct Latin America, LLC. Todos os direitos
+      reservados. HBO Max é usado sob licença.
+    </p>
+    <div class="footer__social">
+      <a href="https://www.facebook.com/HBOMaxBr/" class="footer__social-link">
+        <img src="assets/images/fb_0.png" alt="Facebook" />
+      </a>
+      <a href="https://twitter.com/HBOMaxBR" class="footer__social-link">
+        <img src="assets/images/twitter_0.png" alt="Twitter" />
+      </a>
+      <a href="https://www.instagram.com/hbomaxbr/" class="footer__social-link">
+        <img src="assets/images/instagram_0.png" alt="Instagram" />
+      </a>
+      <a href="https://www.youtube.com/c/hbomaxbr" class="footer__social-link">
+        <img src="assets/images/youtube_0.png" alt="Youtube" />
+      </a>
+    </div>
   </footer>
 
 </body>

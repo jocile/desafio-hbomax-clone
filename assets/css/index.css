@@ -71,7 +71,7 @@ header {
   animation: wiggle 2.2s linear infinite;
 }
 
-/* Posicionando o footer no final da página */
+/* Posicionando o footer fixo no final da página 
 
 footer {
   max-width: 1200px;
@@ -80,7 +80,7 @@ footer {
   text-align: center;
   position: fixed;
   bottom: 0;
-}
+}*/
 
 /* Animations */
 
