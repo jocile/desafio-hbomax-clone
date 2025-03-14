@@ -45,6 +45,13 @@ p {
   font-family: "Quicksand", sans-serif;
 }
 
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 24px;
+  text-align: center;
+}
+
 .button {
   padding: 16px 40px;
   background-color: var(--tertiary-color);

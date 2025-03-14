@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <!-- TODO 
 - [x] Menu de navegação
-- [ ] Formulário de login
-- [ ] Rodapé com links importantes
-- [ ] UI Responsiva -->
+- [x] Formulário de login
+- [x] Rodapé com links importantes
+- [x] UI Responsiva -->
 
 <html lang="pt-BR">
 
@@ -31,12 +31,16 @@
   </nav>
 
   <main>
-    <form action="">
-      <h1>Entrar</h1>
-      <label for="">Você tem uma conta da HBO Max?</label>
+    <form class="container" action="">
+      <h1 class="login__title">Entrar</h1>
+      <label class="login__label"> Você tem uma conta da HBO Max? </label>
       <input class="login__field" type="email" name="email" id="email" placeholder="Endereço de e-mail" />
       <input class="login__field" type="password" name="password" id="password" placeholder="Senha" minlength="8" />
-      <button>Entrar</button>
+
+      <div class="login__actions">
+        <button type="submit" class="button button--gradient">Entrar</button>
+        <a href="#" class="login__link"> Esqueceu a senha? </a>
+      </div>
     </form>
   </main>
 

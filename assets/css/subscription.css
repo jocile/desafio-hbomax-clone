@@ -6,13 +6,6 @@
   position: relative;
 }
 
-.container {
-  max-width: 1200px;
-  margin: auto;
-  padding: 24px;
-  text-align: center;
-}
-
 .subscription__plans {
   display: flex;
   justify-content: space-around;
