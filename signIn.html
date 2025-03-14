@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- TODO 
-- [ ] Menu de navegação
+- [x] Menu de navegação
 - [ ] Formulário de login
 - [ ] Rodapé com links importantes
 - [ ] UI Responsiva -->
@@ -11,6 +11,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="assets/css/nav-menu.css" />
   <link rel="stylesheet" href="assets/css/signIn.css" />
   <link rel="stylesheet" href="assets/css/footer.css" />
   <title>Entrar | HBO Max</title>
@@ -18,7 +19,15 @@
 
 <body>
   <nav>
-    <img src="assets/images/hbo-logo.svg" />
+    <a href="index.html">
+      <img src="assets/images/hbo-logo.svg" alt="Logo HBOMax" id="logo" />
+    </a>
+    <div>
+      <a href="signIn.html" class="menu__item">Entrar</a>
+      <a href="#subscription" class="menu__item button menu__btn">
+        Assine Agora
+      </a>
+    </div>
   </nav>
 
   <main>
